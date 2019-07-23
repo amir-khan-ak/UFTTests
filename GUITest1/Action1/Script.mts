@@ -3,3 +3,5 @@ Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours").WebEdit("passwo
 Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours").Image("Sign-In").Click 42,15 @@ script infofile_;_ZIP::ssf3.xml_;_
 
 
+Reporter.ReportEvent micInfo, "Information", "Information"
+
