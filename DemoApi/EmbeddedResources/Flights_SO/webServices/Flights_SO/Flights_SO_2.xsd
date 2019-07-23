@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="HP.SOAQ.SampleApp" elementFormDefault="qualified" targetNamespace="HP.SOAQ.SampleApp" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="Flights_SO_4.xsd" namespace="http://schemas.datacontract.org/2004/07/FlightsDAL" />
+  <xs:element name="CreateFlightOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FlightOrder" nillable="true" type="tns:FlightOrderDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="FlightOrderDetails">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/FlightsDAL" name="Class" type="q1:Class" />
+      <xs:element name="CustomerName" nillable="true" type="xs:string" />
+      <xs:element name="DepartureDate" type="xs:dateTime" />
+      <xs:element name="FlightNumber" type="xs:int" />
+      <xs:element name="NumberOfTickets" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FlightOrderDetails" nillable="true" type="tns:FlightOrderDetails" />
+  <xs:element name="CreateFlightOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateFlightOrderResult" nillable="true" type="tns:CreatedOrderParams" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="CreatedOrderParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="OrderNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalPrice" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CreatedOrderParams" nillable="true" type="tns:CreatedOrderParams" />
+  <xs:element name="GetFlights">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/FlightsDAL" minOccurs="0" name="DepartureCity" type="q2:Cities" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/FlightsDAL" minOccurs="0" name="ArrivalCity" type="q3:Cities" />
+        <xs:element minOccurs="0" name="FlightDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFlightsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetFlightsResult" nillable="true" type="tns:ArrayOfFlight" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfFlight">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Flight" nillable="true" type="tns:Flight" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFlight" nillable="true" type="tns:ArrayOfFlight" />
+  <xs:complexType name="Flight">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Airline" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ArrivalCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ArrivalTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartureCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartureTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FlightNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="Price" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Flight" nillable="true" type="tns:Flight" />
+  <xs:element name="GetFlightOrders">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FlightsDetails" nillable="true" type="tns:GetFlightOrdersDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="GetFlightOrdersDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CustomerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FlightDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="OrderNumber" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetFlightOrdersDetails" nillable="true" type="tns:GetFlightOrdersDetails" />
+  <xs:element name="GetFlightOrdersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetFlightOrdersResult" nillable="true" type="tns:ArrayOfFlightOrder" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfFlightOrder">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FlightOrder" nillable="true" type="tns:FlightOrder" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFlightOrder" nillable="true" type="tns:ArrayOfFlightOrder" />
+  <xs:complexType name="FlightOrder">
+    <xs:sequence>
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/FlightsDAL" minOccurs="0" name="Class" type="q4:Class" />
+      <xs:element minOccurs="0" name="CustomerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartureDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FlightNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="NumberOfTickets" type="xs:int" />
+      <xs:element minOccurs="0" name="OrderNumber" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FlightOrder" nillable="true" type="tns:FlightOrder" />
+  <xs:element name="UpdateFlightOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateFlightOrderDetails" nillable="true" type="tns:UpdateFlightOrderDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="UpdateFlightOrderDetails">
+    <xs:sequence>
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/FlightsDAL" minOccurs="0" name="Class" type="q5:Class" />
+      <xs:element minOccurs="0" name="CustomerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumberOfTickets" type="xs:int" />
+      <xs:element name="OrderNumber" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UpdateFlightOrderDetails" nillable="true" type="tns:UpdateFlightOrderDetails" />
+  <xs:element name="UpdateFlightOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateFlightOrderResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteFlightOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="OrderNumber" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteFlightOrderResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteFlightOrderResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAllFlightOrders">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAllFlightOrdersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteAllFlightOrdersResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

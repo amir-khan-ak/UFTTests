@@ -1,0 +1,145 @@
+<EnvironmentProfiles><Table><NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Profiles" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Profiles">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="VarName" type="xs:string" minOccurs="0" />
+                <xs:element name="IsSystem" type="xs:boolean" default="false" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="SystemProfile" type="xs:string" minOccurs="0" />
+                <xs:element name="Profile1" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1">
+        <xs:selector xpath=".//Profiles" />
+        <xs:field xpath="VarName" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Profiles>
+    <VarName>IsLoadTest</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Not Available In Design Time</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>TestDir</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\DemoApi</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>TestName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>DemoApi</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>LocalHostName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>DESKTOP-LD4AHA9</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>OS</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Windows</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>OSVersion</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Microsoft Windows NT 10.0.17763.0</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>ProductDir</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>C:\Program Files (x86)\Micro Focus\Unified Functional Testing\</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>ProductName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>Micro Focus Unified Functional Testing</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>ProductVer</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>14.53</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>UserName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>khanamir</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentDate</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile>23/07/2019 10:09:33</SystemProfile>
+  </Profiles>
+  <Profiles>
+    <VarName>QcUrl</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>QcUserName</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>QcPassword</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>QcDomain</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>QcProject</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentRunID</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentTestSetID</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentTestSet</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+  <Profiles>
+    <VarName>CurrentTestInstanceID</VarName>
+    <IsSystem>true</IsSystem>
+    <Description />
+    <SystemProfile />
+  </Profiles>
+</NewDataSet></Table><ActiveProfile>Profile1</ActiveProfile></EnvironmentProfiles>

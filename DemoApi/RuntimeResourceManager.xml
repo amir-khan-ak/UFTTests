@@ -1,0 +1,4 @@
+<RuntimeResourceManager>
+<RuntimeResource><Key>{Step.GeneralProperties.StServiceCallActivity6.TransportProtocol.SOAPProperties.EndpointAddress}</Key><Path>0</Path><Value></Value><AddinId>StmDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.StServiceCallActivity7.TransportProtocol.SOAPProperties.EndpointAddress}</Key><Path>0</Path><Value></Value><AddinId>StmDependencyResolver</AddinId></RuntimeResource>
+</RuntimeResourceManager>
