@@ -1,0 +1,3 @@
+<RuntimeResourceManager>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest6.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\GUITest7</Path><Value>..\GUITest7</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+</RuntimeResourceManager>
