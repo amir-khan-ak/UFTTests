@@ -1,0 +1,8 @@
+<RuntimeResourceManager>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest4.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\Accounting\Create Order</Path><Value>..\..\Accounting\Create Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest8.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\Accounting\Create Order</Path><Value>..\..\Accounting\Create Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest9.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\Accounting\Create Order</Path><Value>..\..\Accounting\Create Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest11.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\Accounting\Create Order</Path><Value>..\..\Accounting\Create Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest12.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\Accounting\Create Order</Path><Value>..\..\Accounting\Create Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest13.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\Accounting\Create Order</Path><Value>..\..\Accounting\Create Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+</RuntimeResourceManager>
