@@ -1,0 +1,11 @@
+<RuntimeResourceManager>
+<RuntimeResource><Key>{BookingData_happy!&apos;FR - Enter Flight Details$&apos;.TablePath}</Key><Path>Local</Path><Value>BookingData_happy\BookingData_happy.xls</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest8.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\Booking System\Create New Order</Path><Value>..\Create New Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest9.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\Booking System\Create New Order</Path><Value>..\Create New Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest10.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\Booking System\Create New Order</Path><Value>..\Create New Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{BookingData_happy!&apos;FR - Close App$&apos;.TablePath}</Key><Path>Local</Path><Value>BookingData_happy\BookingData_happy.xls</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{BookingData_happy!&apos;FR - Enter Passenger Details$&apos;.TablePath}</Key><Path>Local</Path><Value>BookingData_happy\BookingData_happy.xls</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{BookingData_happy!&apos;FR - Login$&apos;.TablePath}</Key><Path>Local</Path><Value>BookingData_happy\BookingData_happy.xls</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{BookingData_happy!&apos;FR - Select Flight$&apos;.TablePath}</Key><Path>Local</Path><Value>BookingData_happy\BookingData_happy.xls</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{BookingData_happy!Global.TablePath}</Key><Path>Local</Path><Value>BookingData_happy\BookingData_happy.xls</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+</RuntimeResourceManager>
