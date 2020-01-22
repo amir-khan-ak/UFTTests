@@ -32,13 +32,13 @@
     <VarName>TestDir</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\Booking System\Booking Process</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>TestName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>Booking Process</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>LocalHostName</VarName>
@@ -86,7 +86,7 @@
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>22/01/2020 20:40:28</SystemProfile>
+    <SystemProfile>22/01/2020 21:19:00</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>
