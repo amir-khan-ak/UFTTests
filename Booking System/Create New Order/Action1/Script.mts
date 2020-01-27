@@ -4,7 +4,7 @@ WpfWindow("Micro Focus MyFlight Sample").WpfEdit("password").SetSecure Parameter
 WpfWindow("Micro Focus MyFlight Sample").WpfButton("OK").Click
 
 wait 2
-Parameter("Logged_In") = True
-If WpfWindow("Micro Focus MyFlight Sample").WpfEdit("password").Exist(2) then
-	Parameter("Logged_In") = False
+Parameter("Logged_In") = True 
+If WpfWindow("Micro Focus MyFlight Sample").WpfEdit("password").Exist(2) then 
+	Parameter("Logged_In") = False 'Sets output of logged_in parameter to FALSE
 End If
