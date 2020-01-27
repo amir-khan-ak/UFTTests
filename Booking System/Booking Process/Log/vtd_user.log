@@ -1,39 +1,24 @@
-2020-01-22 20:11:27,141 [1] INFO  - Loaded appender: FileAppenderExternal
-2020-01-22 20:11:27,173 [1] INFO  - Loaded appender: UserLoggerAppender
-2020-01-22 20:11:27,173 [1] INFO  - Loaded appender: FileAppenderInternal
-2020-01-22 20:11:27,173 [1] INFO  - Loaded appender: FileAppenderExternal
-2020-01-22 20:11:27,173 [1] INFO  - Loaded appender: UserLoggerAppender
-2020-01-22 20:11:27,173 [1] INFO  - Loaded appender: FileAppenderInternal
-2020-01-22 20:11:28,140 [18] INFO  - Step 'Start' : Step 'Start' started
-2020-01-22 20:11:28,267 [18] INFO  - Step 'Start' ended successfully
-2020-01-22 20:11:28,269 [18] INFO  - Step 'Test Flow' : Step 'Test Flow' started
-2020-01-22 20:11:28,272 [18] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
-2020-01-22 20:11:28,275 [18] INFO  - Step 'Create New Order.FR - Login' : Step 'Create New Order.FR - Login' started
-2020-01-22 20:11:29,559 [18] INFO  - Step 'Create New Order.FR - Login' : Input Parameter 'Agent', Value: 'John'
-2020-01-22 20:11:29,610 [18] INFO  - Step 'Create New Order.FR - Login' : Input Parameter 'Password', Value: '5e28a383f272f0458ede'
-2020-01-22 20:11:51,966 [18] INFO  - Step 'Create New Order.FR - Login' : Output Parameter 'Logged_In', Value: 'True'
-2020-01-22 20:11:52,325 [18] INFO  - Step 'Create New Order.FR - Login' ended successfully
-2020-01-22 20:11:52,327 [18] INFO  - Step 'Login Successful?' : Step 'Login Successful?' started
-2020-01-22 20:11:52,372 [18] INFO  - Step 'IfElse5' : Evaluation style : Using condition
-2020-01-22 20:11:52,373 [18] INFO  - Step 'Yes' : Step 'Yes' started
-2020-01-22 20:11:52,375 [18] INFO  - Step 'Create New Order.FR - Enter Flight Details' : Step 'Create New Order.FR - Enter Flight Details' started
-2020-01-22 20:11:52,427 [18] INFO  - Step 'Create New Order.FR - Enter Flight Details' : Input Parameter 'FlyFrom', Value: 'Denver'
-2020-01-22 20:11:52,455 [18] INFO  - Step 'Create New Order.FR - Enter Flight Details' : Input Parameter 'FlyTo', Value: 'London'
-2020-01-22 20:11:52,478 [18] INFO  - Step 'Create New Order.FR - Enter Flight Details' : Input Parameter 'Date', Value: '01/01/2021'
-2020-01-22 20:11:52,510 [18] INFO  - Step 'Create New Order.FR - Enter Flight Details' : Input Parameter 'Class', Value: 'Business'
-2020-01-22 20:11:52,541 [18] INFO  - Step 'Create New Order.FR - Enter Flight Details' : Input Parameter 'NumOfTickets', Value: '1'
-2020-01-22 20:12:02,841 [18] INFO  - Step 'Create New Order.FR - Enter Flight Details' ended successfully
-2020-01-22 20:12:02,841 [18] INFO  - Step 'Create New Order.FR - Select Flight' : Step 'Create New Order.FR - Select Flight' started
-2020-01-22 20:12:09,971 [18] INFO  - Step 'Create New Order.FR - Select Flight' ended successfully
-2020-01-22 20:12:09,971 [18] INFO  - Step 'Create New Order.FR - Enter Passenger Details' : Step 'Create New Order.FR - Enter Passenger Details' started
-2020-01-22 20:12:10,023 [18] INFO  - Step 'Create New Order.FR - Enter Passenger Details' : Input Parameter 'Passenger', Value: 'Amir Khan'
-2020-01-22 20:12:20,273 [18] INFO  - Step 'Create New Order.FR - Enter Passenger Details' : Output Parameter 'OrderNo', Value: '172'
-2020-01-22 20:12:20,642 [18] INFO  - Step 'Create New Order.FR - Enter Passenger Details' ended successfully
-2020-01-22 20:12:20,645 [18] INFO  - Step 'Yes' ended successfully
-2020-01-22 20:12:20,647 [18] INFO  - Step 'Login Successful?' ended successfully
-2020-01-22 20:12:20,648 [18] INFO  - Step 'Create New Order.FR - Close App' : Step 'Create New Order.FR - Close App' started
-2020-01-22 20:12:28,755 [18] INFO  - Step 'Create New Order.FR - Close App' ended successfully
-2020-01-22 20:12:28,758 [18] INFO  - Step 'Iteration 1' ended successfully
-2020-01-22 20:12:28,760 [18] INFO  - Step 'Test Flow' ended successfully
-2020-01-22 20:12:28,762 [18] INFO  - Step 'End' : Step 'End' started
-2020-01-22 20:12:28,780 [18] INFO  - Step 'End' ended successfully
+2020-01-27 16:16:18,330 [1] INFO  - Loaded appender: FileAppenderInternal
+2020-01-27 16:16:18,349 [1] INFO  - Loaded appender: FileAppenderExternal
+2020-01-27 16:16:18,349 [1] INFO  - Loaded appender: UserLoggerAppender
+2020-01-27 16:16:18,350 [1] INFO  - Loaded appender: FileAppenderInternal
+2020-01-27 16:16:18,350 [1] INFO  - Loaded appender: FileAppenderExternal
+2020-01-27 16:16:18,351 [1] INFO  - Loaded appender: UserLoggerAppender
+2020-01-27 16:16:19,016 [9] INFO  - Step 'Start' : Step 'Start' started
+2020-01-27 16:16:19,055 [9] INFO  - Step 'Start' ended successfully
+2020-01-27 16:16:19,063 [9] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2020-01-27 16:16:19,802 [9] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2020-01-27 16:16:19,804 [9] INFO  - Step 'Create New Order.FR - Login' : Step 'Create New Order.FR - Login' started
+2020-01-27 16:16:19,814 [9] ERROR - Step 'Create New Order.FR - Login' : The ‘F1’ column does not exist in the ‘GenerateTestData!Global’ data source.
+2020-01-27 16:16:19,815 [9] ERROR - Step 'Create New Order.FR - Login' ended unsuccessfully
+2020-01-27 16:16:19,817 [9] INFO  - Step 'Login Successful' : Step 'Login Successful' started
+2020-01-27 16:16:19,819 [9] INFO  - Step 'IfElse14' : Evaluation style : Using condition
+2020-01-27 16:16:19,821 [9] INFO  - Step 'No' : Step 'No' started
+2020-01-27 16:16:19,825 [9] INFO  - Step 'Message Login Failed' : Step 'Message Login Failed' started
+2020-01-27 16:16:19,829 [9] INFO  - Step 'Message Login Failed' : Login Failed
+2020-01-27 16:16:19,839 [9] INFO  - Step 'No' ended successfully
+2020-01-27 16:16:19,841 [9] INFO  - Step 'Login Successful' ended successfully
+2020-01-27 16:16:19,845 [9] INFO  - Step 'Iteration 1' ended successfully
+2020-01-27 16:16:19,847 [9] INFO  - Step 'Test Flow' ended successfully
+2020-01-27 16:16:19,984 [9] INFO  - Step 'End' : Step 'End' started
+2020-01-27 16:16:19,992 [9] INFO  - Step 'End' ended successfully

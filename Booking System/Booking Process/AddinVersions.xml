@@ -2,4 +2,5 @@
 <AddinVersions>
   <AddinVersion AddinId="HP.ST.STFRAMEWORKUPGRADERSADDIN" Version="15.0.0.293" />
   <AddinVersion AddinId="HP.ST.VTDBASICACTIVITY" Version="15.0.0.293" />
+  <AddinVersion AddinId="HP.ST.UFTADDIN" Version="15.0.0.293" />
 </AddinVersions>

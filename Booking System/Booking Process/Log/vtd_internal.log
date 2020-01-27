@@ -1,0 +1,4 @@
+2020-01-27 16:16:19,811 [9] ERROR - CallQTPTest13, GetDataFromInDirections() failed : The ‘F2’ column does not exist in the ‘GenerateTestData!Global’ data source.
+2020-01-27 16:16:19,811 [9] ERROR - CallQTPTest13, GetDataFromInDirections() failed : The ‘F1’ column does not exist in the ‘GenerateTestData!Global’ data source.
+2020-01-27 16:16:19,819 [9] ERROR - Trying to get XmlNode for Xpath: /*[local-name(.)='Arguments'][1]/*[local-name(.)='Logged_In'][1], XmlNode was null
+2020-01-27 16:16:19,843 [9] ERROR - Trying to get XmlNode for Xpath: /*[local-name(.)='Arguments'][1]/*[local-name(.)='Logged_In'][1], XmlNode was null
