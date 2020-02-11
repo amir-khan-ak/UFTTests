@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/FlightsDAL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/FlightsDAL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="Flights_SO_3.xsd" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:simpleType name="Class">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="First">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Business">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Economy">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Class" nillable="true" type="tns:Class" />
+  <xs:simpleType name="Cities">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Denver" />
+      <xs:enumeration value="Frankfurt" />
+      <xs:enumeration value="London" />
+      <xs:enumeration value="Los Angeles" />
+      <xs:enumeration value="Paris" />
+      <xs:enumeration value="Portland" />
+      <xs:enumeration value="San Francisco" />
+      <xs:enumeration value="Seattle" />
+      <xs:enumeration value="Sydney" />
+      <xs:enumeration value="Zurich" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Cities" nillable="true" type="tns:Cities" />
+</xs:schema>

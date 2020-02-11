@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="HP.SOAQ.SampleApp/Imports" targetNamespace="HP.SOAQ.SampleApp/Imports" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="Flights_SO_2.xsd" namespace="HP.SOAQ.SampleApp" />
+  <xs:import schemaLocation="Flights_SO_3.xsd" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="Flights_SO_4.xsd" namespace="http://schemas.datacontract.org/2004/07/FlightsDAL" />
+</xs:schema>
