@@ -11,4 +11,5 @@
 <RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest47.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\demo\Booking System\Create New Order</Path><Value>..\..\demo\Booking System\Create New Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
 <RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest48.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\demo\Booking System\Create New Order</Path><Value>..\..\demo\Booking System\Create New Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
 <RuntimeResource><Key>{Step.GeneralProperties.CallQTPTest49.ScriptPath}</Key><Path>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\demo\Booking System\Create New Order</Path><Value>..\..\demo\Booking System\Create New Order</Value><AddinId>DefaultDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{GenerateTestData!Global.TablePath}</Key><Path>Local</Path><Value>GenerateTestData\GenerateTestData.xlsx</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
 </RuntimeResourceManager>

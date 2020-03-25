@@ -46,7 +46,9 @@
     	int reportLevelInTree;
         HP.ST.Fwk.ReportCreator.QTPEngine.QTPEngineReportCreator reportCreator;
     	
-    	
+    	public BindDirection bind_dir5 = null;
+        public BindDirection bind_dir6 = null;
+        
         public IEnumerable<FeaturesGroup> LicensedFeatures
         {
         
@@ -98,9 +100,13 @@
             
             
         
-        	_flow.StartActivity1 = new HP.ST.Ext.BasicActivities.StartActivity(_context,"StartActivity1");
+        	_flow.DataFetchActivity52 = new HP.ST.Ext.BasicActivities.DataFetchActivity(_context,"DataFetchActivity52");
+            _flow.StartActivity1 = new HP.ST.Ext.BasicActivities.StartActivity(_context,"StartActivity1");
             _flow.Loop2 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Loop<Loop2Input>(_context,"Loop2",LoopType.For);
+            _flow.DataExporterActivity54 = new HP.ST.Ext.BasicActivities.DataExporterActivity(_context,"DataExporterActivity54");
+            _flow.DataExporterCloseActivity55 = new HP.ST.Ext.BasicActivities.DataExporterCloseActivity(_context,"DataExporterCloseActivity55");
             _flow.EndActivity3 = new HP.ST.Ext.BasicActivities.EndActivity(_context,"EndActivity3");
+            _flow.DataDisconnectActivity53 = new HP.ST.Ext.BasicActivities.DataDisconnectActivity(_context,"DataDisconnectActivity53");
             _flow.Sequence51 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Sequence(_context,"Sequence51");
             _flow.CallQTPTest42 = new HP.ST.Ext.UFTActivity.QtpTestActivity(_context,"CallQTPTest42");
             _flow.IfElse43 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.IfElse<IfElse43Input>(_context,"IfElse43");
@@ -111,6 +117,17 @@
             _flow.CallQTPTest47 = new HP.ST.Ext.UFTActivity.QtpTestActivity(_context,"CallQTPTest47");
             _flow.CallQTPTest48 = new HP.ST.Ext.UFTActivity.QtpTestActivity(_context,"CallQTPTest48");
             _flow.ReportMessageActivity50 = new HP.ST.Ext.BasicActivities.ReportMessageActivity(_context,"ReportMessageActivity50");
+            _flow.DataFetchActivity52.Comment = @"";
+            _flow.DataFetchActivity52.IconPath = @"";
+            _flow.DataFetchActivity52.AssemblyPath = @"AddIns\ServiceTest\BaseDataProviders\HP.ST.Ext.CustomDataProviders.dll";
+            _flow.DataFetchActivity52.QueryClassName = @"HP.ST.Ext.CustomDataProviders.ExcelFileDataQuery";
+            XmlDocument DataFetchActivity52_QueryParameters_Document = new XmlDocument();
+            DataFetchActivity52_QueryParameters_Document.PreserveWhitespace = true;
+            string xmlDataFetchActivity52Params = @"<Arguments><QueryParametersContainer><QueryParameter><Name>Id</Name><Value>dbe0dc38-230c-49fd-8202-c42587b68af6</Value></QueryParameter><QueryParameter><Name>QueryName</Name><Value>GenerateTestData!Global</Value></QueryParameter><QueryParameter><Name>IsEmbedded</Name><Value>True</Value></QueryParameter><QueryParameter><Name>Externalized</Name><Value>False</Value></QueryParameter><QueryParameter><Name>GroupText</Name><Value>GenerateTestData</Value></QueryParameter><QueryParameter><Name>FilePath</Name><Value>" + _context.ResourceManager.GetValue("{GenerateTestData!Global.TablePath}") + "</Value></QueryParameter><QueryParameter><Name>SheetName</Name><Value>Global$</Value></QueryParameter><QueryParameter><Name>ContainsHeadersRow</Name><Value>True</Value></QueryParameter></QueryParametersContainer></Arguments>";
+            DataFetchActivity52_QueryParameters_Document.LoadXml(xmlDataFetchActivity52Params);
+            _flow.DataFetchActivity52.QueryParameters = DataFetchActivity52_QueryParameters_Document;
+            _flow.dataSourceNameToDataSource.Add("GenerateTestData!Global", _flow.DataFetchActivity52);
+            this.Activities.Add (_flow.DataFetchActivity52);
             _flow.StartActivity1.Comment = @"";
             _flow.StartActivity1.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_code_activity.png";
             _flow.StartActivity1.Name = @"Start";
@@ -141,10 +158,33 @@
             _flow.Loop2.Name = @"Test Flow";
             _flow.Loop2.Activities.Add (_flow.Sequence51);
             this.Activities.Add (_flow.Loop2);
+            _flow.DataExporterActivity54.Comment = @"";
+            _flow.DataExporterActivity54.IconPath = @"";
+            VTDPropertyInfoBase pi9 = new VTDPropertyInfoBase("OutTable");
+            VTDBaseGetter binding_getter5 = new VTDObjectGetter(pi9);
+            VTDPropertyInfoBase pi10 = new VTDPropertyInfoBase("Data");
+            VTDBaseSetter binding_setter5 = new VTDObjectSetter(pi10);
+            binding_setter5 = new StringFormaterDecorator(binding_setter5,"{Step.DataFetchActivity52.OutTable}");
+            bind_dir5 = new BindDirection(_flow.DataFetchActivity52,binding_getter5,binding_setter5,BindTargetType.ToInProperty);
+            _flow.DataExporterActivity54.InDirections.Add(bind_dir5);
+            this.Activities.Add (_flow.DataExporterActivity54);
+            _flow.DataExporterCloseActivity55.Comment = @"";
+            _flow.DataExporterCloseActivity55.IconPath = @"";
+            this.Activities.Add (_flow.DataExporterCloseActivity55);
             _flow.EndActivity3.Comment = @"";
             _flow.EndActivity3.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_code_activity.png";
             _flow.EndActivity3.Name = @"End";
             this.Activities.Add (_flow.EndActivity3);
+            _flow.DataDisconnectActivity53.Comment = @"";
+            _flow.DataDisconnectActivity53.IconPath = @"";
+            VTDPropertyInfoBase pi11 = new VTDPropertyInfoBase("OutTable");
+            VTDBaseGetter binding_getter6 = new VTDObjectGetter(pi11);
+            VTDPropertyInfoBase pi12 = new VTDPropertyInfoBase("Data");
+            VTDBaseSetter binding_setter6 = new VTDObjectSetter(pi12);
+            binding_setter6 = new StringFormaterDecorator(binding_setter6,"{Step.DataFetchActivity52.OutTable}");
+            bind_dir6 = new BindDirection(_flow.DataFetchActivity52,binding_getter6,binding_setter6,BindTargetType.ToInProperty);
+            _flow.DataDisconnectActivity53.InDirections.Add(bind_dir6);
+            this.Activities.Add (_flow.DataDisconnectActivity53);
             _flow.Sequence51.Comment = @"";
             _flow.Sequence51.IconPath = @"";
             _flow.Sequence51.Name = @"Sequence51";
