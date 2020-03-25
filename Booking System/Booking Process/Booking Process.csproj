@@ -62,20 +62,11 @@ $(ST_INSTALL_PATH)\AddIns\ServiceTest\JMS;</ReferencePath>
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
-    <Reference Include="HP.ST.Ext.CommunicationChannels">
-      <Private>False</Private>
-    </Reference>
     <Reference Include="HP.ST.Ext.CustomDataProviders.dll">
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
-    <Reference Include="HP.ST.Ext.JMSTransportAdaptor">
-      <Private>False</Private>
-    </Reference>
     <Reference Include="HP.ST.Ext.UFTActivity">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="HP.ST.Ext.WebServicesTechnologyRT">
       <Private>False</Private>
     </Reference>
     <Reference Include="HP.ST.Fwk.JVMLoader.dll">

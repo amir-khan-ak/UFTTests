@@ -32,19 +32,19 @@
     <VarName>TestDir</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\Booking System\Booking Process</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>TestName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>Booking Process</SystemProfile>
+    <SystemProfile />
   </Profiles>
   <Profiles>
     <VarName>LocalHostName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>DESKTOP-LD4AHA9</SystemProfile>
+    <SystemProfile>UFTONE-KHAN</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>OS</VarName>
@@ -56,7 +56,7 @@
     <VarName>OSVersion</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>Microsoft Windows NT 10.0.17763.0</SystemProfile>
+    <SystemProfile>Microsoft Windows NT 10.0.18363.0</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>ProductDir</VarName>
@@ -86,7 +86,7 @@
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>11/02/2020 14:18:39</SystemProfile>
+    <SystemProfile>25/03/2020 15:09:49</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>

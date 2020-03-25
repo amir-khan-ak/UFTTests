@@ -1,39 +1,28 @@
-2020-02-11 06:58:28,772 [1] INFO  - Loaded appender: FileAppenderInternal
-2020-02-11 06:58:28,809 [1] INFO  - Loaded appender: FileAppenderExternal
-2020-02-11 06:58:28,809 [1] INFO  - Loaded appender: UserLoggerAppender
-2020-02-11 06:58:28,811 [1] INFO  - Loaded appender: FileAppenderInternal
-2020-02-11 06:58:28,811 [1] INFO  - Loaded appender: FileAppenderExternal
-2020-02-11 06:58:28,811 [1] INFO  - Loaded appender: UserLoggerAppender
-2020-02-11 06:58:30,003 [9] INFO  - Step 'Start' : Step 'Start' started
-2020-02-11 06:58:30,050 [9] INFO  - Step 'Start' ended successfully
-2020-02-11 06:58:30,055 [9] INFO  - Step 'Test Flow' : Step 'Test Flow' started
-2020-02-11 06:58:30,069 [9] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
-2020-02-11 06:58:30,074 [9] INFO  - Step 'Create New Order.FR - Login' : Step 'Create New Order.FR - Login' started
-2020-02-11 06:58:32,445 [9] INFO  - Step 'Create New Order.FR - Login' : Input Parameter 'Agent', Value: 'John'
-2020-02-11 06:58:32,541 [9] INFO  - Step 'Create New Order.FR - Login' : Input Parameter 'Password', Value: '5e28a383f272f0458ede'
-2020-02-11 06:58:51,519 [9] INFO  - Step 'Create New Order.FR - Login' : Output Parameter 'Logged_In', Value: 'True'
-2020-02-11 06:58:52,038 [9] INFO  - Step 'Create New Order.FR - Login' ended successfully
-2020-02-11 06:58:52,039 [9] INFO  - Step 'Login Successful?' : Step 'Login Successful?' started
-2020-02-11 06:58:52,043 [9] INFO  - Step 'IfElse25' : Evaluation style : Using condition
-2020-02-11 06:58:52,044 [9] INFO  - Step 'Yes' : Step 'Yes' started
-2020-02-11 06:58:52,046 [9] INFO  - Step 'Create New Order.FR - Search Flight' : Step 'Create New Order.FR - Search Flight' started
-2020-02-11 06:58:52,117 [9] INFO  - Step 'Create New Order.FR - Search Flight' : Input Parameter 'FlyFrom', Value: 'Frankfurt'
-2020-02-11 06:58:52,148 [9] INFO  - Step 'Create New Order.FR - Search Flight' : Input Parameter 'FlyTo', Value: 'Paris'
-2020-02-11 06:58:52,181 [9] INFO  - Step 'Create New Order.FR - Search Flight' : Input Parameter 'Date', Value: '15/02/2020'
-2020-02-11 06:58:52,235 [9] INFO  - Step 'Create New Order.FR - Search Flight' : Input Parameter 'Class', Value: 'First'
-2020-02-11 06:58:52,267 [9] INFO  - Step 'Create New Order.FR - Search Flight' : Input Parameter 'NumOfTickets', Value: '2'
-2020-02-11 06:59:10,113 [9] INFO  - Step 'Create New Order.FR - Search Flight' ended successfully
-2020-02-11 06:59:10,115 [9] INFO  - Step 'Create New Order.FR - Select Flight' : Step 'Create New Order.FR - Select Flight' started
-2020-02-11 06:59:24,563 [9] INFO  - Step 'Create New Order.FR - Select Flight' ended successfully
-2020-02-11 06:59:24,565 [9] INFO  - Step 'Create New Order.FR - Enter Passenger Details' : Step 'Create New Order.FR - Enter Passenger Details' started
-2020-02-11 06:59:24,639 [9] INFO  - Step 'Create New Order.FR - Enter Passenger Details' : Input Parameter 'Passenger', Value: 'Amir Khan'
-2020-02-11 06:59:38,718 [9] INFO  - Step 'Create New Order.FR - Enter Passenger Details' : Output Parameter 'OrderNo', Value: ''
-2020-02-11 06:59:39,120 [9] INFO  - Step 'Create New Order.FR - Enter Passenger Details' ended successfully
-2020-02-11 06:59:39,121 [9] INFO  - Step 'Create New Order.FR - Close App' : Step 'Create New Order.FR - Close App' started
-2020-02-11 06:59:51,500 [9] INFO  - Step 'Create New Order.FR - Close App' ended successfully
-2020-02-11 06:59:51,502 [9] INFO  - Step 'Yes' ended successfully
-2020-02-11 06:59:51,504 [9] INFO  - Step 'Login Successful?' ended successfully
-2020-02-11 06:59:51,507 [9] INFO  - Step 'Iteration 1' ended successfully
-2020-02-11 06:59:51,509 [9] INFO  - Step 'Test Flow' ended successfully
-2020-02-11 06:59:51,510 [9] INFO  - Step 'End' : Step 'End' started
-2020-02-11 06:59:51,526 [9] INFO  - Step 'End' ended successfully
+2020-03-25 15:44:52,117 [1] INFO  - Loaded appender: FileAppenderExternal
+2020-03-25 15:44:52,174 [1] INFO  - Loaded appender: UserLoggerAppender
+2020-03-25 15:44:52,175 [1] INFO  - Loaded appender: FileAppenderInternal
+2020-03-25 15:44:52,176 [1] INFO  - Loaded appender: FileAppenderExternal
+2020-03-25 15:44:52,176 [1] INFO  - Loaded appender: UserLoggerAppender
+2020-03-25 15:44:52,176 [1] INFO  - Loaded appender: FileAppenderInternal
+2020-03-25 15:44:53,524 [18] INFO  - Step 'Start' : Step 'Start' started
+2020-03-25 15:44:53,677 [18] INFO  - Step 'Start' ended successfully
+2020-03-25 15:44:53,679 [18] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2020-03-25 15:44:53,682 [18] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2020-03-25 15:44:53,685 [18] INFO  - Step 'Create New Order.FR - Login' : Step 'Create New Order.FR - Login' started
+2020-03-25 15:44:55,606 [18] INFO  - Step 'Create New Order.FR - Login' : Input Parameter 'Agent', Value: 'John'
+2020-03-25 15:44:55,683 [18] INFO  - Step 'Create New Order.FR - Login' : Input Parameter 'Password', Value: '5e28a383f272f0458ede'
+2020-03-25 15:45:13,555 [18] INFO  - Step 'Create New Order.FR - Login' : Output Parameter 'Logged_In', Value: 'True'
+2020-03-25 15:45:14,188 [18] INFO  - Step 'Create New Order.FR - Login' ended successfully
+2020-03-25 15:45:14,190 [18] INFO  - Step 'Login successful?' : Step 'Login successful?' started
+2020-03-25 15:45:14,195 [18] INFO  - Step 'IfElse43' : Evaluation style : Using condition
+2020-03-25 15:45:14,197 [18] INFO  - Step 'No' : Step 'No' started
+2020-03-25 15:45:14,199 [18] INFO  - Step 'Login failed' : Step 'Login failed' started
+2020-03-25 15:45:14,205 [18] INFO  - Step 'Login failed' : Login failed
+2020-03-25 15:45:14,218 [18] INFO  - Step 'No' ended successfully
+2020-03-25 15:45:14,221 [18] INFO  - Step 'Login successful?' ended successfully
+2020-03-25 15:45:14,224 [18] INFO  - Step 'Create New Order.FR - Close App' : Step 'Create New Order.FR - Close App' started
+2020-03-25 15:45:28,393 [18] INFO  - Step 'Create New Order.FR - Close App' ended successfully
+2020-03-25 15:45:28,398 [18] INFO  - Step 'Iteration 1' ended successfully
+2020-03-25 15:45:28,402 [18] INFO  - Step 'Test Flow' ended successfully
+2020-03-25 15:45:28,405 [18] INFO  - Step 'End' : Step 'End' started
+2020-03-25 15:45:28,421 [18] INFO  - Step 'End' ended successfully
