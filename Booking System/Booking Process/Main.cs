@@ -46,25 +46,14 @@
     	int reportLevelInTree;
         HP.ST.Fwk.ReportCreator.QTPEngine.QTPEngineReportCreator reportCreator;
     	
-    	public BindDirection bind_dir5 = null;
-        public BindDirection bind_dir6 = null;
-        
+    	
         public IEnumerable<FeaturesGroup> LicensedFeatures
         {
         
         get
         {
         List<FeaturesGroup> features = new List<FeaturesGroup>();
-        FeaturesGroup fg1 = new FeaturesGroup();
-            fg1.Add(new LicenseFeature("UnifiedFunctionalTesting","1.0"));
-            fg1.Add(new LicenseFeature("UnifiedFunctionalTesting","1.1"));
-            fg1.Add(new LicenseFeature("UnifiedFunctionalTesting","1.2"));
-            features.Add(fg1);
-            FeaturesGroup fg2 = new FeaturesGroup();
-            FeaturesGroup fg3 = new FeaturesGroup();
-            FeaturesGroup fg4 = new FeaturesGroup();
-            FeaturesGroup fg5 = new FeaturesGroup();
-            return features;
+        return features;
         
         }
         
@@ -100,34 +89,10 @@
             
             
         
-        	_flow.DataFetchActivity52 = new HP.ST.Ext.BasicActivities.DataFetchActivity(_context,"DataFetchActivity52");
-            _flow.StartActivity1 = new HP.ST.Ext.BasicActivities.StartActivity(_context,"StartActivity1");
+        	_flow.StartActivity1 = new HP.ST.Ext.BasicActivities.StartActivity(_context,"StartActivity1");
             _flow.Loop2 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Loop<Loop2Input>(_context,"Loop2",LoopType.For);
-            _flow.DataExporterActivity54 = new HP.ST.Ext.BasicActivities.DataExporterActivity(_context,"DataExporterActivity54");
-            _flow.DataExporterCloseActivity55 = new HP.ST.Ext.BasicActivities.DataExporterCloseActivity(_context,"DataExporterCloseActivity55");
             _flow.EndActivity3 = new HP.ST.Ext.BasicActivities.EndActivity(_context,"EndActivity3");
-            _flow.DataDisconnectActivity53 = new HP.ST.Ext.BasicActivities.DataDisconnectActivity(_context,"DataDisconnectActivity53");
             _flow.Sequence51 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.Sequence(_context,"Sequence51");
-            _flow.CallQTPTest42 = new HP.ST.Ext.UFTActivity.QtpTestActivity(_context,"CallQTPTest42");
-            _flow.IfElse43 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.IfElse<IfElse43Input>(_context,"IfElse43");
-            _flow.CallQTPTest49 = new HP.ST.Ext.UFTActivity.QtpTestActivity(_context,"CallQTPTest49");
-            _flow.IfElseBranch44 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.IfElseBranch(_context,"IfElseBranch44");
-            _flow.IfElseBranch45 = new HP.ST.Fwk.RunTimeFWK.CompositeActivities.IfElseBranch(_context,"IfElseBranch45");
-            _flow.CallQTPTest46 = new HP.ST.Ext.UFTActivity.QtpTestActivity(_context,"CallQTPTest46");
-            _flow.CallQTPTest47 = new HP.ST.Ext.UFTActivity.QtpTestActivity(_context,"CallQTPTest47");
-            _flow.CallQTPTest48 = new HP.ST.Ext.UFTActivity.QtpTestActivity(_context,"CallQTPTest48");
-            _flow.ReportMessageActivity50 = new HP.ST.Ext.BasicActivities.ReportMessageActivity(_context,"ReportMessageActivity50");
-            _flow.DataFetchActivity52.Comment = @"";
-            _flow.DataFetchActivity52.IconPath = @"";
-            _flow.DataFetchActivity52.AssemblyPath = @"AddIns\ServiceTest\BaseDataProviders\HP.ST.Ext.CustomDataProviders.dll";
-            _flow.DataFetchActivity52.QueryClassName = @"HP.ST.Ext.CustomDataProviders.ExcelFileDataQuery";
-            XmlDocument DataFetchActivity52_QueryParameters_Document = new XmlDocument();
-            DataFetchActivity52_QueryParameters_Document.PreserveWhitespace = true;
-            string xmlDataFetchActivity52Params = @"<Arguments><QueryParametersContainer><QueryParameter><Name>Id</Name><Value>dbe0dc38-230c-49fd-8202-c42587b68af6</Value></QueryParameter><QueryParameter><Name>QueryName</Name><Value>GenerateTestData!Global</Value></QueryParameter><QueryParameter><Name>IsEmbedded</Name><Value>True</Value></QueryParameter><QueryParameter><Name>Externalized</Name><Value>False</Value></QueryParameter><QueryParameter><Name>GroupText</Name><Value>GenerateTestData</Value></QueryParameter><QueryParameter><Name>FilePath</Name><Value>" + _context.ResourceManager.GetValue("{GenerateTestData!Global.TablePath}") + "</Value></QueryParameter><QueryParameter><Name>SheetName</Name><Value>Global$</Value></QueryParameter><QueryParameter><Name>ContainsHeadersRow</Name><Value>True</Value></QueryParameter></QueryParametersContainer></Arguments>";
-            DataFetchActivity52_QueryParameters_Document.LoadXml(xmlDataFetchActivity52Params);
-            _flow.DataFetchActivity52.QueryParameters = DataFetchActivity52_QueryParameters_Document;
-            _flow.dataSourceNameToDataSource.Add("GenerateTestData!Global", _flow.DataFetchActivity52);
-            this.Activities.Add (_flow.DataFetchActivity52);
             _flow.StartActivity1.Comment = @"";
             _flow.StartActivity1.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_code_activity.png";
             _flow.StartActivity1.Name = @"Start";
@@ -158,129 +123,13 @@
             _flow.Loop2.Name = @"Test Flow";
             _flow.Loop2.Activities.Add (_flow.Sequence51);
             this.Activities.Add (_flow.Loop2);
-            _flow.DataExporterActivity54.Comment = @"";
-            _flow.DataExporterActivity54.IconPath = @"";
-            VTDPropertyInfoBase pi9 = new VTDPropertyInfoBase("OutTable");
-            VTDBaseGetter binding_getter5 = new VTDObjectGetter(pi9);
-            VTDPropertyInfoBase pi10 = new VTDPropertyInfoBase("Data");
-            VTDBaseSetter binding_setter5 = new VTDObjectSetter(pi10);
-            binding_setter5 = new StringFormaterDecorator(binding_setter5,"{Step.DataFetchActivity52.OutTable}");
-            bind_dir5 = new BindDirection(_flow.DataFetchActivity52,binding_getter5,binding_setter5,BindTargetType.ToInProperty);
-            _flow.DataExporterActivity54.InDirections.Add(bind_dir5);
-            this.Activities.Add (_flow.DataExporterActivity54);
-            _flow.DataExporterCloseActivity55.Comment = @"";
-            _flow.DataExporterCloseActivity55.IconPath = @"";
-            this.Activities.Add (_flow.DataExporterCloseActivity55);
             _flow.EndActivity3.Comment = @"";
             _flow.EndActivity3.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_code_activity.png";
             _flow.EndActivity3.Name = @"End";
             this.Activities.Add (_flow.EndActivity3);
-            _flow.DataDisconnectActivity53.Comment = @"";
-            _flow.DataDisconnectActivity53.IconPath = @"";
-            VTDPropertyInfoBase pi11 = new VTDPropertyInfoBase("OutTable");
-            VTDBaseGetter binding_getter6 = new VTDObjectGetter(pi11);
-            VTDPropertyInfoBase pi12 = new VTDPropertyInfoBase("Data");
-            VTDBaseSetter binding_setter6 = new VTDObjectSetter(pi12);
-            binding_setter6 = new StringFormaterDecorator(binding_setter6,"{Step.DataFetchActivity52.OutTable}");
-            bind_dir6 = new BindDirection(_flow.DataFetchActivity52,binding_getter6,binding_setter6,BindTargetType.ToInProperty);
-            _flow.DataDisconnectActivity53.InDirections.Add(bind_dir6);
-            this.Activities.Add (_flow.DataDisconnectActivity53);
             _flow.Sequence51.Comment = @"";
             _flow.Sequence51.IconPath = @"";
             _flow.Sequence51.Name = @"Sequence51";
-            _flow.Sequence51.Activities.Add (_flow.CallQTPTest42);
-            _flow.Sequence51.Activities.Add (_flow.IfElse43);
-            _flow.Sequence51.Activities.Add (_flow.CallQTPTest49);
-            XmlDocument CallQTPTest42_InputArguments_Document = new XmlDocument();
-            CallQTPTest42_InputArguments_Document.PreserveWhitespace = true;
-            CallQTPTest42_InputArguments_Document.LoadXml(
-@"<Arguments><Agent>John</Agent><Password>5e28a383f272f0458ede</Password></Arguments>");
-            _flow.CallQTPTest42.InputArguments = CallQTPTest42_InputArguments_Document;
-            _flow.CallQTPTest42.Comment = @"";
-            _flow.CallQTPTest42.IconPath = @"AddIns\ServiceTest\UFT\toolbox_qtp.png";
-            _flow.CallQTPTest42.Name = @"Create New Order.FR - Login";
-            _flow.CallQTPTest42.ScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.ScriptPath}")) ? @"..\..\demo\Booking System\Create New Order" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.ScriptPath}");
-            _flow.CallQTPTest42.ActionName = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.ActionName}")) ? @"FR - Login" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.ActionName}");
-            _flow.CallQTPTest42.Description = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.Description}")) ? @"" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.Description}");
-            _flow.CallQTPTest42.IsActionSelected = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.IsActionSelected}")) ? @"True" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.IsActionSelected}");
-            _flow.CallQTPTest42.ResultLocation = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.ResultLocation}")) ? @"RunQTPReport\" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.ResultLocation}");
-            _flow.CallQTPTest42.QCScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.QCScriptPath}")) ? @"" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest42.QCScriptPath}");
-            _flow.IfElse43.ConditionAsString = @"Is False";
-            _flow.IfElse43.Comment = @"";
-            _flow.IfElse43.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_if_else.png";
-            _flow.IfElse43.Name = @"Login successful?";
-            _flow.IfElse43.Activities.Add (_flow.IfElseBranch44);
-            _flow.IfElse43.Activities.Add (_flow.IfElseBranch45);
-            _flow.CallQTPTest49.Comment = @"";
-            _flow.CallQTPTest49.IconPath = @"AddIns\ServiceTest\UFT\toolbox_qtp.png";
-            _flow.CallQTPTest49.Name = @"Create New Order.FR - Close App";
-            _flow.CallQTPTest49.ScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.ScriptPath}")) ? @"..\..\demo\Booking System\Create New Order" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.ScriptPath}");
-            _flow.CallQTPTest49.ActionName = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.ActionName}")) ? @"FR - Close App" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.ActionName}");
-            _flow.CallQTPTest49.Description = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.Description}")) ? @"" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.Description}");
-            _flow.CallQTPTest49.IsActionSelected = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.IsActionSelected}")) ? @"True" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.IsActionSelected}");
-            _flow.CallQTPTest49.ResultLocation = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.ResultLocation}")) ? @"RunQTPReport\" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.ResultLocation}");
-            _flow.CallQTPTest49.QCScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.QCScriptPath}")) ? @"" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest49.QCScriptPath}");
-            _flow.IfElseBranch44.Condition += delegate(object sender,EventArgs e)
-            {
-            return false;
-            };
-            _flow.IfElseBranch44.Comment = @"";
-            _flow.IfElseBranch44.IconPath = @"";
-            _flow.IfElseBranch44.Name = @"Yes";
-            _flow.IfElseBranch44.Activities.Add (_flow.CallQTPTest46);
-            _flow.IfElseBranch44.Activities.Add (_flow.CallQTPTest47);
-            _flow.IfElseBranch44.Activities.Add (_flow.CallQTPTest48);
-            _flow.IfElseBranch45.Condition += delegate(object sender,EventArgs e)
-            {
-            return true;
-            };
-            _flow.IfElseBranch45.Comment = @"";
-            _flow.IfElseBranch45.IconPath = @"";
-            _flow.IfElseBranch45.Name = @"No";
-            _flow.IfElseBranch45.Activities.Add (_flow.ReportMessageActivity50);
-            XmlDocument CallQTPTest46_InputArguments_Document = new XmlDocument();
-            CallQTPTest46_InputArguments_Document.PreserveWhitespace = true;
-            CallQTPTest46_InputArguments_Document.LoadXml(
-@"<Arguments><FromCity>Denver</FromCity><ToCity>Frankfurt</ToCity><Date>27/03/2020</Date><Class>Economy</Class></Arguments>");
-            _flow.CallQTPTest46.InputArguments = CallQTPTest46_InputArguments_Document;
-            _flow.CallQTPTest46.Comment = @"";
-            _flow.CallQTPTest46.IconPath = @"AddIns\ServiceTest\UFT\toolbox_qtp.png";
-            _flow.CallQTPTest46.Name = @"Create New Order.FR - Find Flight";
-            _flow.CallQTPTest46.ScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.ScriptPath}")) ? @"..\..\demo\Booking System\Create New Order" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.ScriptPath}");
-            _flow.CallQTPTest46.ActionName = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.ActionName}")) ? @"FR - Find Flight" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.ActionName}");
-            _flow.CallQTPTest46.Description = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.Description}")) ? @"" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.Description}");
-            _flow.CallQTPTest46.IsActionSelected = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.IsActionSelected}")) ? @"True" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.IsActionSelected}");
-            _flow.CallQTPTest46.ResultLocation = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.ResultLocation}")) ? @"RunQTPReport\" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.ResultLocation}");
-            _flow.CallQTPTest46.QCScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.QCScriptPath}")) ? @"" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest46.QCScriptPath}");
-            _flow.CallQTPTest47.Comment = @"";
-            _flow.CallQTPTest47.IconPath = @"AddIns\ServiceTest\UFT\toolbox_qtp.png";
-            _flow.CallQTPTest47.Name = @"Create New Order.FR - Select Flight";
-            _flow.CallQTPTest47.ScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.ScriptPath}")) ? @"..\..\demo\Booking System\Create New Order" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.ScriptPath}");
-            _flow.CallQTPTest47.ActionName = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.ActionName}")) ? @"FR - Select Flight" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.ActionName}");
-            _flow.CallQTPTest47.Description = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.Description}")) ? @"" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.Description}");
-            _flow.CallQTPTest47.IsActionSelected = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.IsActionSelected}")) ? @"True" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.IsActionSelected}");
-            _flow.CallQTPTest47.ResultLocation = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.ResultLocation}")) ? @"RunQTPReport\" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.ResultLocation}");
-            _flow.CallQTPTest47.QCScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.QCScriptPath}")) ? @"" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest47.QCScriptPath}");
-            XmlDocument CallQTPTest48_InputArguments_Document = new XmlDocument();
-            CallQTPTest48_InputArguments_Document.PreserveWhitespace = true;
-            CallQTPTest48_InputArguments_Document.LoadXml(
-@"<Arguments><Passenger>Amir Khan</Passenger></Arguments>");
-            _flow.CallQTPTest48.InputArguments = CallQTPTest48_InputArguments_Document;
-            _flow.CallQTPTest48.Comment = @"";
-            _flow.CallQTPTest48.IconPath = @"AddIns\ServiceTest\UFT\toolbox_qtp.png";
-            _flow.CallQTPTest48.Name = @"Create New Order.FR - Enter Passenger Details";
-            _flow.CallQTPTest48.ScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.ScriptPath}")) ? @"..\..\demo\Booking System\Create New Order" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.ScriptPath}");
-            _flow.CallQTPTest48.ActionName = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.ActionName}")) ? @"FR - Enter Passenger Details" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.ActionName}");
-            _flow.CallQTPTest48.Description = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.Description}")) ? @"" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.Description}");
-            _flow.CallQTPTest48.IsActionSelected = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.IsActionSelected}")) ? @"True" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.IsActionSelected}");
-            _flow.CallQTPTest48.ResultLocation = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.ResultLocation}")) ? @"RunQTPReport\" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.ResultLocation}");
-            _flow.CallQTPTest48.QCScriptPath = String.IsNullOrEmpty(_context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.QCScriptPath}")) ? @"" : _context.ResourceManager.GetValue(@"{Step.GeneralProperties.CallQTPTest48.QCScriptPath}");
-            _flow.ReportMessageActivity50.Status = @"Fail";
-            _flow.ReportMessageActivity50.Message = @"Login failed";
-            _flow.ReportMessageActivity50.Destination = @"ReportAndOutput";
-            _flow.ReportMessageActivity50.Comment = @"";
-            _flow.ReportMessageActivity50.IconPath = @"AddIns\ServiceTest\BasicActivities\toolbox_report_message.png";
-            _flow.ReportMessageActivity50.Name = @"Login failed";
             
         }
         
