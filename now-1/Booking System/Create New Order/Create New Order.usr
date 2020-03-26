@@ -16,6 +16,7 @@ FR - Login=Action1\Script.mts
 FR - Select Flight=Action3\Script.mts
 FR - Enter Passenger Details=Action4\Script.mts
 FR - Close App=Action5\Script.mts
+FR - Find Flights=Action6\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -67,3 +68,6 @@ Action4\ObjectRepository.bdb=
 Action5\Script.mts=
 Action5\Resource.mtr=
 Action5\ObjectRepository.bdb=
+Action6\Script.mts=
+Action6\Resource.mtr=
+Action6\ObjectRepository.bdb=
