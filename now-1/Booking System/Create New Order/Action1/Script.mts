@@ -3,8 +3,7 @@ WpfWindow("Micro Focus MyFlight Sample").WpfEdit("agentName").Set Parameter("Age
 WpfWindow("Micro Focus MyFlight Sample").WpfEdit("password").SetSecure Parameter("Password")
 WpfWindow("Micro Focus MyFlight Sample").WpfButton("OK").Click
 
-wait 2
 Parameter("Logged_In") = True
-If WpfWindow("Micro Focus MyFlight Sample").WpfEdit("password").Exist(2) then
+If WpfWindow("Micro Focus MyFlight Sample").WpfEdit("password").Exist(1) then
 	Parameter("Logged_In") = False
 End If
