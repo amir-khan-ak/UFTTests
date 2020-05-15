@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" elementFormDefault="qualified" targetNamespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8102/ServiceSimulation/Demo/ClaimProcessingService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" />
+  <xs:element name="enterClaim">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" minOccurs="0" name="claim" nillable="true" type="q1:Claim" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="enterClaimResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" minOccurs="0" name="enterClaimResult" nillable="true" type="q2:ClaimId" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="listClaims">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" minOccurs="0" name="memberId" nillable="true" type="q3:MemberId" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="listClaimsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" minOccurs="0" name="listClaimsResult" nillable="true" type="q4:ArrayOfClaimId" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getClaim">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" minOccurs="0" name="claimId" nillable="true" type="q5:ClaimId" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getClaimResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" minOccurs="0" name="getClaimResult" nillable="true" type="q6:Claim" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

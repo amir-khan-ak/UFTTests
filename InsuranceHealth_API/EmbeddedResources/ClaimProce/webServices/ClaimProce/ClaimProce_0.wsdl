@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s0="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/Imports" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" name="ClaimProcessing" targetNamespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema targetNamespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/Imports">
+      <s:import schemaLocation="ClaimProce_1.xsd" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" />
+      <s:import schemaLocation="ClaimProce_2.xsd" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" />
+      <s:import schemaLocation="ClaimProce_3.xsd" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="IClaimProcessing_enterClaim_InputMessage">
+    <wsdl:part name="parameters" element="tns:enterClaim" />
+  </wsdl:message>
+  <wsdl:message name="IClaimProcessing_enterClaim_OutputMessage">
+    <wsdl:part name="parameters" element="tns:enterClaimResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClaimProcessing_enterClaim_MemberNotFoundFaultFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" name="detail" element="q1:MemberNotFoundFault" />
+  </wsdl:message>
+  <wsdl:message name="IClaimProcessing_listClaims_InputMessage">
+    <wsdl:part name="parameters" element="tns:listClaims" />
+  </wsdl:message>
+  <wsdl:message name="IClaimProcessing_listClaims_OutputMessage">
+    <wsdl:part name="parameters" element="tns:listClaimsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClaimProcessing_getClaim_InputMessage">
+    <wsdl:part name="parameters" element="tns:getClaim" />
+  </wsdl:message>
+  <wsdl:message name="IClaimProcessing_getClaim_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getClaimResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClaimProcessing_getClaim_ClaimNotFoundFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" name="detail" element="q2:ClaimNotFoundFault" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="false" name="IClaimProcessing" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract">
+    <wsdl:operation name="enterClaim">
+      <wsdl:input wsaw:Action="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/enterClaim" message="tns:IClaimProcessing_enterClaim_InputMessage" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" />
+      <wsdl:output wsaw:Action="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/enterClaimResponse" message="tns:IClaimProcessing_enterClaim_OutputMessage" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" />
+      <wsdl:fault wsaw:Action="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/enterClaimMemberNotFoundFaultFault" name="MemberNotFoundFaultFault" message="tns:IClaimProcessing_enterClaim_MemberNotFoundFaultFault_FaultMessage" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" />
+    </wsdl:operation>
+    <wsdl:operation name="listClaims">
+      <wsdl:input wsaw:Action="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/listClaims" message="tns:IClaimProcessing_listClaims_InputMessage" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" />
+      <wsdl:output wsaw:Action="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/listClaimsResponse" message="tns:IClaimProcessing_listClaims_OutputMessage" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" />
+    </wsdl:operation>
+    <wsdl:operation name="getClaim">
+      <wsdl:input wsaw:Action="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/getClaim" message="tns:IClaimProcessing_getClaim_InputMessage" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" />
+      <wsdl:output wsaw:Action="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/getClaimResponse" message="tns:IClaimProcessing_getClaim_OutputMessage" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" />
+      <wsdl:fault wsaw:Action="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/getClaimClaimNotFoundFaultFault" name="ClaimNotFoundFaultFault" message="tns:IClaimProcessing_getClaim_ClaimNotFoundFaultFault_FaultMessage" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IClaimProcessing" type="tns:IClaimProcessing">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="enterClaim">
+      <soap:operation soapAction="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/enterClaim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="MemberNotFoundFaultFault">
+        <soap:fault use="literal" name="MemberNotFoundFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="listClaims">
+      <soap:operation soapAction="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/listClaims" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getClaim">
+      <soap:operation soapAction="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/getClaim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ClaimNotFoundFaultFault">
+        <soap:fault use="literal" name="ClaimNotFoundFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ClaimProcessing">
+    <wsdl:port name="BasicHttpBinding_IClaimProcessing" binding="tns:BasicHttpBinding_IClaimProcessing">
+      <soap:address location="http://localhost:8102/ServiceSimulation/Demo/ClaimProcessingService/ClaimProcessingService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

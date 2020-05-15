@@ -1,0 +1,56 @@
+2020-05-15 17:27:59,582 [1] INFO  - Loaded appender: FileAppenderInternal
+2020-05-15 17:27:59,597 [1] INFO  - Loaded appender: FileAppenderExternal
+2020-05-15 17:27:59,597 [1] INFO  - Loaded appender: UserLoggerAppender
+2020-05-15 17:27:59,597 [1] INFO  - Loaded appender: FileAppenderInternal
+2020-05-15 17:27:59,598 [1] INFO  - Loaded appender: FileAppenderExternal
+2020-05-15 17:27:59,598 [1] INFO  - Loaded appender: UserLoggerAppender
+2020-05-15 17:28:00,039 [9] INFO  - Step 'Start' : Step 'Start' started
+2020-05-15 17:28:00,070 [9] INFO  - Step 'Start' ended successfully
+2020-05-15 17:28:00,070 [9] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2020-05-15 17:28:00,070 [9] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2020-05-15 17:28:00,070 [9] INFO  - Step 'enterClaim' : Step 'enterClaim' started
+2020-05-15 17:28:00,085 [9] INFO  - 
+Request:
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <Header />
+  <Body>
+    <enterClaim xmlns="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01">
+      <claim>
+        <adjustedAmount xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo">1</adjustedAmount>
+        <claimedAmount xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo">24</claimedAmount>
+        <date xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo">2010-01-01T00:00:00+00:00</date>
+        <description xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo">premolar seal</description>
+        <firstName xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo">Hercule</firstName>
+        <lastName xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo">Poirot</lastName>
+        <memberId xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo">
+          <id>-4</id>
+        </memberId>
+        <socialSecurityNumber xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo">554-98-0001</socialSecurityNumber>
+      </claim>
+    </enterClaim>
+  </Body>
+</Envelope>
+
+2020-05-15 17:28:00,101 [9] INFO  - URL: http://localhost:8102/ServiceSimulation/Demo/ClaimProcessingService/ClaimProcessingService
+2020-05-15 17:28:00,914 [9] INFO  - Returning the response to the previous channel
+2020-05-15 17:28:00,914 [9] INFO  - 
+Response:
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <enterClaimResponse xmlns="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01">
+      <enterClaimResult xmlns:a="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:id>7</a:id>
+      </enterClaimResult>
+    </enterClaimResponse>
+  </s:Body>
+</s:Envelope>
+
+2020-05-15 17:28:00,929 [9] INFO  - Structural Validation: True
+2020-05-15 17:28:00,945 [9] INFO  - Checkpoint 1: "7" > "1" passed
+2020-05-15 17:28:00,945 [9] INFO  - Step 'enterClaim' ended successfully
+2020-05-15 17:28:00,945 [9] INFO  - Step 'Iteration 1' ended successfully
+2020-05-15 17:28:00,945 [9] INFO  - Step 'Test Flow' ended successfully
+2020-05-15 17:28:00,945 [9] INFO  - Step 'End' : Step 'End' started
+2020-05-15 17:28:00,960 [9] INFO  - Step 'End' ended successfully

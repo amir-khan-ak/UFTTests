@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/Imports" targetNamespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/Imports" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="ClaimProce_1.xsd" namespace="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01" />
+  <xs:import schemaLocation="ClaimProce_2.xsd" namespace="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" />
+  <xs:import schemaLocation="ClaimProce_3.xsd" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+</xs:schema>

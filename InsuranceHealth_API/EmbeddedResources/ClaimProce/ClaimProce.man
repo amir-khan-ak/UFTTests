@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>aa5fab66-2fbe-486d-b62e-e23263a02f5d</ID>
+  <Name>ClaimProce</Name>
+  <Type>WSDL</Type>
+  <Version>1</Version>
+  <CreationDate>2020-05-15T17:15:03.3171131+01:00</CreationDate>
+  <UpdateDate>2020-05-15T17:15:03.3171131+01:00</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>afbfc689-089e-4c09-8807-2d53dbbc85ee.xml</MetaDataSignatureFile>
+  <TestResourceId>afbfc689-089e-4c09-8807-2d53dbbc85ee</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.WebServiceWsdl</SignatureCodonId>
+  <SignatureAddinVersion>15.0.1.332</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\InsuranceHealth_API\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Users\khanamir\Documents\UFT Tests\UFT_Repository\InsuranceHealth_API\EmbeddedResources\ClaimProce</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>15.0.1.332</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>
