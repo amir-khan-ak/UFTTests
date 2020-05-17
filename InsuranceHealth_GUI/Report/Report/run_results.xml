@@ -1,0 +1,961 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Users\khanamir\Downloads\ClaimProcessingDemo\run-virtualized-gui.bat",1</Name>
+    <StartTime>2020-05-15 18:46:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>abea90a8f87b48ef844e717f2b91d126</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e291bfaa-a6db-4baa-be99-4483978196e3.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Health Insurance Demo.Activate</Name>
+    <Description />
+    <StartTime>2020-05-15 18:46:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+        </Path>
+        <Operation>Activate</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Health Insurance Demo Client]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[WindowsForms10.Window.8.app.0.141b42a_r9_ad1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f09670abd4c846dc889d37f513183786</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\b7ed109d-a385-4324-90f7-f2096ab63d32.jpeg" highlight="0,0,395,624" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Health Insurance Demo</Name>
+    <Description>Window</Description>
+    <StartTime>2020-05-15 18:46:50</StartTime>
+    <Duration>11</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Health Insurance Demo Client]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[WindowsForms10.Window.8.app.0.141b42a_r9_ad1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f09670abd4c846dc889d37f513183786</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Health Insurance Demo.Click</Name>
+    <Description>215, 194</Description>
+    <StartTime>2020-05-15 18:47:01</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA[215, 194]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Window;Transform;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Health Insurance Demo Client]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[frameworkid]]></Name>
+            <Value><![CDATA[WinForm]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b5ce0f58efef44059b499a8a00bc909f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4757ff33-d34b-43e6-b94c-86ea9bfa6941.jpeg" highlight="0,0,395,624" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>textFirstName.SetValue</Name>
+    <Description>"Hercule"</Description>
+    <StartTime>2020-05-15 18:47:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+          <Object>
+            <Type>UIAEdit</Type>
+            <Name><![CDATA[textFirstName]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetValue</Operation>
+        <OperationData><![CDATA["Hercule"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Value;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*:textFirstName]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Edit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>081a16733b8b4372b6edee91c1cdf5a6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e03c2b79-1254-4fc4-99cd-b6b1e1b3fdff.jpeg" highlight="142,186,229,20" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Health Insurance Demo.Click</Name>
+    <Description>208, 222</Description>
+    <StartTime>2020-05-15 18:47:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA[208, 222]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Window;Transform;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Health Insurance Demo Client]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[frameworkid]]></Name>
+            <Value><![CDATA[WinForm]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b5ce0f58efef44059b499a8a00bc909f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\c6078847-ba37-4f3a-9efb-8dd63dd59a4e.jpeg" highlight="0,0,395,624" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>textLastName.SetValue</Name>
+    <Description>"Poirot"</Description>
+    <StartTime>2020-05-15 18:47:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+          <Object>
+            <Type>UIAEdit</Type>
+            <Name><![CDATA[textLastName]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetValue</Operation>
+        <OperationData><![CDATA["Poirot"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Value;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*:textLastName]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Edit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>081a16733b8b4372b6edee91c1cdf5a6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\8aef0f16-a07a-40af-b5f0-e60bf5af6766.jpeg" highlight="142,212,229,20" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Health Insurance Demo.Click</Name>
+    <Description>214, 244</Description>
+    <StartTime>2020-05-15 18:47:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA[214, 244]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Window;Transform;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Health Insurance Demo Client]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[frameworkid]]></Name>
+            <Value><![CDATA[WinForm]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b5ce0f58efef44059b499a8a00bc909f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\30f2b02d-ac30-453e-a44e-6aabe0d6cd51.jpeg" highlight="0,0,395,624" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>textSSN.SetValue</Name>
+    <Description>"554-98-0001"</Description>
+    <StartTime>2020-05-15 18:47:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+          <Object>
+            <Type>UIAEdit</Type>
+            <Name><![CDATA[textSSN]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetValue</Operation>
+        <OperationData><![CDATA["554-98-0001"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Value;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*:textSSN]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Edit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>081a16733b8b4372b6edee91c1cdf5a6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\0d2f8e40-239c-4ccc-b911-31a21deac8cc.jpeg" highlight="142,238,229,20" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Health Insurance Demo.Click</Name>
+    <Description>237, 271</Description>
+    <StartTime>2020-05-15 18:47:41</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA[237, 271]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Window;Transform;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Health Insurance Demo Client]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[frameworkid]]></Name>
+            <Value><![CDATA[WinForm]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b5ce0f58efef44059b499a8a00bc909f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1afcc4c5-a148-4fb1-9480-74117eb741c3.jpeg" highlight="0,0,395,624" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>textDate.SetValue</Name>
+    <Description>"01/01/2010"</Description>
+    <StartTime>2020-05-15 18:47:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+          <Object>
+            <Type>UIAEdit</Type>
+            <Name><![CDATA[textDate]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetValue</Operation>
+        <OperationData><![CDATA["01/01/2010"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Value;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*:textDate]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Edit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>081a16733b8b4372b6edee91c1cdf5a6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f84744c3-99aa-456f-89e2-ee42acae5aac.jpeg" highlight="142,264,229,20" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Health Insurance Demo.Click</Name>
+    <Description>225, 299</Description>
+    <StartTime>2020-05-15 18:47:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA[225, 299]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Window;Transform;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Health Insurance Demo Client]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[frameworkid]]></Name>
+            <Value><![CDATA[WinForm]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b5ce0f58efef44059b499a8a00bc909f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ccf94bb9-ec3d-4c2f-82f7-fd8b0f84b9e7.jpeg" highlight="0,0,395,624" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>textDescription.SetValue</Name>
+    <Description>"premolar seal"</Description>
+    <StartTime>2020-05-15 18:47:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+          <Object>
+            <Type>UIAEdit</Type>
+            <Name><![CDATA[textDescription]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetValue</Operation>
+        <OperationData><![CDATA["premolar seal"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Value;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*:textDescription]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Edit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>081a16733b8b4372b6edee91c1cdf5a6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ec8173c9-f8d5-40d4-8803-e7b4f1c82dfe.jpeg" highlight="142,290,229,20" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Health Insurance Demo.Click</Name>
+    <Description>310, 324</Description>
+    <StartTime>2020-05-15 18:48:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA[310, 324]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Window;Transform;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Health Insurance Demo Client]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[frameworkid]]></Name>
+            <Value><![CDATA[WinForm]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b5ce0f58efef44059b499a8a00bc909f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\9ae44281-cf04-4490-8777-d2dfd0d9446d.jpeg" highlight="0,0,395,624" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>textAmount.SetValue</Name>
+    <Description>"24"</Description>
+    <StartTime>2020-05-15 18:48:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+          <Object>
+            <Type>UIAEdit</Type>
+            <Name><![CDATA[textAmount]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetValue</Operation>
+        <OperationData><![CDATA["24"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Value;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*:textAmount]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Edit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>081a16733b8b4372b6edee91c1cdf5a6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\5a61a4e7-7650-4422-a54d-46f4a71bfdce.jpeg" highlight="142,316,229,20" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Enter Claim.Click</Name>
+    <Description />
+    <StartTime>2020-05-15 18:48:22</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+          <Object>
+            <Type>UIAButton</Type>
+            <Name><![CDATA[Enter Claim]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Invoke;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*:buttonEnter]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Enter Claim]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>ee089f5abfc34032a07f486a421b246c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\786f2bb5-5a23-48ac-b2b5-f65fa7628870.jpeg" highlight="266,342,105,23" />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"textResponse"</Name>
+    <Description> </Description>
+    <StartTime>2020-05-15 18:48:25</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+          <Object>
+            <Type>UIAEdit</Type>
+            <Name><![CDATA[textResponse]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Value;Scroll;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*:textResponse]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Edit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[text]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Claim #0 entered.
+Claim #0: Andreas Stenger, 01/01/2010, $24, approved
+]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Claim .*]]></StdChkPointPropertyExpectedValue>
+            <StdChkPointRegex><![CDATA[ON]]></StdChkPointRegex>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>081a16733b8b4372b6edee91c1cdf5a6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a9a8fa08-1e1d-407d-8f9b-3ade0aa1666a.jpeg" highlight="20,382,351,222" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>textResponse</Name>
+    <Description>UIAEdit</Description>
+    <StartTime>2020-05-15 18:48:25</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+          <Object>
+            <Type>UIAEdit</Type>
+            <Name><![CDATA[textResponse]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[UIAEdit]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Value;Scroll;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*:textResponse]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Edit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>081a16733b8b4372b6edee91c1cdf5a6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Health Insurance Demo</Name>
+    <Description>UIAWindow</Description>
+    <StartTime>2020-05-15 18:47:01</StartTime>
+    <Duration>85</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>UIAWindow</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[UIAWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[supportedpatterns]]></Name>
+            <Value><![CDATA[Window;Transform;LegacyIAccessible]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[path]]></Name>
+            <Value><![CDATA[*:*]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Health Insurance Demo Client]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[frameworkid]]></Name>
+            <Value><![CDATA[WinForm]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[controltype]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b5ce0f58efef44059b499a8a00bc909f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Health Insurance Demo.Close</Name>
+    <Description />
+    <StartTime>2020-05-15 18:48:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Health Insurance Demo Client]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[WindowsForms10.Window.8.app.0.141b42a_r9_ad1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f09670abd4c846dc889d37f513183786</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\55da96c0-0f3a-4a2e-bbdb-4b41a602ff47.jpeg" highlight="0,0,395,624" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Health Insurance Demo</Name>
+    <Description>Window</Description>
+    <StartTime>2020-05-15 18:48:26</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Health Insurance Demo]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Health Insurance Demo Client]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[WindowsForms10.Window.8.app.0.141b42a_r9_ad1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f09670abd4c846dc889d37f513183786</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Health Insurance Data Testing</Name>
+    <Description />
+    <StartTime>2020-05-15 18:46:45</StartTime>
+    <Duration>102</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>df0a0ef1c3be4a8ea8c513d425745cdc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2020-05-15 18:46:44</StartTime>
+    <Duration>104</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>0cce8019f602480baddead3df12fb2f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>InsuranceHealth_GUI</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.1</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-05-15 18:46:31</StartTime>
+    <Duration>117</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2fa76ff5019e4e67b3492b06e9c4f2ab</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+01:00:00</Timezone>
+      <Locale>English (Switzerland)</Locale>
+      <User>CORPDOM\khanamir</User>
+      <CpuInfo>Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>10811</TotalMemory>
+      <HostName>\UFTONE-KHAN</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Report</ResultName>
+    <RunStartTime>2020-05-15 18:46:31</RunStartTime>
+    <Timezone>+01:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.1</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
