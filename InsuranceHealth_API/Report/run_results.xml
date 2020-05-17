@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Start</Name>
+    <Description />
+    <StartTime>2020-05-15 18:48:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step0.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step0.js</HtmlBottomFilePath>
+      <IconKey>68aeeb4a459b421eaeed056bff404b53</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<Data>
+    <Name>enterClaim</Name>
+    <Description />
+    <StartTime>2020-05-15 18:48:50</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step2.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step2.js</HtmlBottomFilePath>
+      <IconKey>68aeeb4a459b421eaeed056bff404b53</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step1.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step1.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Iteration 1</Name>
+    <Description />
+    <StartTime>2020-05-15 18:48:50</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step3.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step3.js</HtmlBottomFilePath>
+      <IconKey>e2f53d0a31fe42548aa0092d49037ed4</IconKey>
+    </Extension>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2020-05-15 18:48:50</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step3.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step3.js</HtmlBottomFilePath>
+      <IconKey>d9682c395e4749acb559da889bf1d709</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Test Flow</Name>
+    <Description />
+    <StartTime>2020-05-15 18:48:50</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step4.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step4.js</HtmlBottomFilePath>
+      <IconKey>68aeeb4a459b421eaeed056bff404b53</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>End</Name>
+    <Description />
+    <StartTime>2020-05-15 18:48:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step5.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step5.js</HtmlBottomFilePath>
+      <IconKey>68aeeb4a459b421eaeed056bff404b53</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>InsuranceHealth_API</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>15.0</ToolVersion>
+    <ToolVersionStringLiteral>15.0</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-05-15 18:48:50</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>04e167503ffd4ee49a95c0cf581e3b8a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+01:00:00</Timezone>
+      <Locale>English (Switzerland)</Locale>
+      <User>CORPDOM\khanamir</User>
+      <CpuInfo>Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>10811</TotalMemory>
+      <HostName>\UFTONE-KHAN</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName />
+    <RunStartTime>2020-05-15 18:48:50</RunStartTime>
+    <Timezone>+01:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>15.0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

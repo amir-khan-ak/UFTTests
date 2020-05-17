@@ -1,0 +1,36 @@
+﻿<xsl:stylesheet version="1.0"
+	xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
+
+  <xsl:variable name="IDS_CPManager_Name">Name</xsl:variable>
+  <xsl:variable name="IDS_CPManager_Result">Result</xsl:variable>
+  <xsl:variable name="IDS_CPManager_Property">Property</xsl:variable>
+  <xsl:variable name="IDS_CPManager_ActualResult">Actual Result</xsl:variable>
+  <xsl:variable name="IDS_CPManager_EvaluationStyle">Evaluation Style</xsl:variable>
+  <xsl:variable name="IDS_CPManager_ExpectedValues">Expected Values</xsl:variable>
+  <xsl:variable name="IDS_CPManager_Details">Details</xsl:variable>
+  <xsl:variable name="IDS_ValueCPRule_Result">Result</xsl:variable>
+  <xsl:variable name="IDS_ValueCPRule_XPath">XPath</xsl:variable>
+  <xsl:variable name="IDS_ValueCPRule_EvaluationStyle">Evaluation Style</xsl:variable>
+  <xsl:variable name="IDS_ValueCPRule_ExpectedValues">Expected Values</xsl:variable>
+  <xsl:variable name="IDS_ValueCPRule_ActualResult">Actual Result</xsl:variable>
+  <xsl:variable name="IDS_StepProperties">Step Properties</xsl:variable>
+  <xsl:variable name="IDS_Name">Name</xsl:variable>
+  <xsl:variable name="IDS_Value">Value</xsl:variable>
+  <xsl:variable name="IDS_StServiceCall_WebProperties">Web Service Call Properties</xsl:variable>
+  <xsl:variable name="IDS_StServiceCall_WebHTTPSnapshot">Web Service Call HTTP Snapshot</xsl:variable>
+  <xsl:variable name="IDS_StServiceCall_HTTPHeader">HTTP Header</xsl:variable>
+  <xsl:variable name="IDS_StServiceCall_SOAP">SOAP</xsl:variable>
+  <xsl:variable name="IDS_StServiceCall_Attachments">Attachments</xsl:variable>
+  <xsl:variable name="IDS_StServiceCall_Details">Details</xsl:variable>
+  <xsl:variable name="IDS_StServiceCall_HTTPBody">HTTP Body</xsl:variable>
+  <xsl:variable name="IDS_StServiceCall_Request">Request</xsl:variable>
+  <xsl:variable name="IDS_StServiceCall_Response">Response</xsl:variable>
+  <xsl:variable name="IDS_StServiceReceiver_WebProperties">Web Service Call Receiver Properties</xsl:variable>
+  <xsl:variable name="IDS_StServiceReceiver_WebHTTPSnapshot">Web Service Call Receiver HTTP Snapshot</xsl:variable>
+  <xsl:variable name="IDS_RfcCallActivityRT_RfcProperties">RFC Properties</xsl:variable>
+  <xsl:variable name="IDS_IDocActivityRT_RfcProperties">IDoc Properties</xsl:variable>
+  <xsl:variable name="IDS_ViewReport">View Report</xsl:variable>
+  <xsl:variable name="IDS_XmlCompareResults">XML Comparison Results</xsl:variable>
+  <xsl:variable name="IDS_SuccessTooltip">Success</xsl:variable>
+  <xsl:variable name="IDS_FailureTooltip">Failure</xsl:variable>
+</xsl:stylesheet>

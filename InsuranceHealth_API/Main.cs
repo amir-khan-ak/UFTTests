@@ -166,7 +166,7 @@
             XmlDocument StServiceCallActivity4_ExpectedOutputProperties_Document = new XmlDocument();
             StServiceCallActivity4_ExpectedOutputProperties_Document.PreserveWhitespace = true;
             StServiceCallActivity4_ExpectedOutputProperties_Document.LoadXml(
-@"<s:Envelope xmlns:s=""http://schemas.xmlsoap.org/soap/envelope/""><Header xmlns=""http://schemas.xmlsoap.org/soap/envelope/"" /><s:Body><enterClaimResponse xmlns=""http://hp.com/SOAQ/ServiceSimulation/2010/demo/01""><enterClaimResult xmlns:a=""http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo"" xmlns:i=""http://www.w3.org/2001/XMLSchema-instance""><a:id>1</a:id></enterClaimResult></enterClaimResponse></s:Body></s:Envelope>");
+@"<s:Envelope xmlns:s=""http://schemas.xmlsoap.org/soap/envelope/""><Header xmlns=""http://schemas.xmlsoap.org/soap/envelope/"" /><s:Body><enterClaimResponse xmlns=""http://hp.com/SOAQ/ServiceSimulation/2010/demo/01""><enterClaimResult xmlns:a=""http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo"" xmlns:i=""http://www.w3.org/2001/XMLSchema-instance""><a:id>0</a:id></enterClaimResult></enterClaimResponse></s:Body></s:Envelope>");
             _flow.StServiceCallActivity4.ExpectedOutputProperties = StServiceCallActivity4_ExpectedOutputProperties_Document;
             set_StServiceCallActivity4_checkpoints(_flow.StServiceCallActivity4);
             

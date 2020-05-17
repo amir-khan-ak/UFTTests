@@ -1,0 +1,39 @@
+<?xml-stylesheet href="..//StServiceCallActivity.xsl" type="text/xsl"?><report><VTD_Type name="Type">HP.ST.Ext.WebServicesActivities.StServiceCallActivity</VTD_Type><VTD_Name name="Step ID">StServiceCallActivity4</VTD_Name><InputXml name="InputXml" xml="True" link="True" FileLocation="StServiceCallActivity4_InputXml_4f2cb1a4-aecd-48b2-9db0-22805bf85a47.xml">&lt;Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Header /&gt;
+  &lt;Body&gt;
+    &lt;enterClaim xmlns="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01"&gt;
+      &lt;claim&gt;
+        &lt;adjustedAmount xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo"&gt;1&lt;/adjustedAmount&gt;
+        &lt;claimedAmount xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo"&gt;24&lt;/claimedAmount&gt;
+        &lt;date xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo"&gt;2010-01-01T00:00:00+00:00&lt;/date&gt;
+        &lt;description xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo"&gt;premolar seal&lt;/description&gt;
+        &lt;firstName xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo"&gt;Hercule&lt;/firstName&gt;
+        &lt;lastName xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo"&gt;Poirot&lt;/lastName&gt;
+        &lt;memberId xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo"&gt;
+          &lt;id&gt;-4&lt;/id&gt;
+        &lt;/memberId&gt;
+        &lt;socialSecurityNumber xmlns="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo"&gt;554-98-0001&lt;/socialSecurityNumber&gt;
+      &lt;/claim&gt;
+    &lt;/enterClaim&gt;
+  &lt;/Body&gt;
+&lt;/Envelope&gt;</InputXml><Service name="Service">ClaimProcessing</Service><Port name="Port">BasicHttpBinding_IClaimProcessing</Port><Operation name="Operation">enterClaim</Operation><Address name="Address">http://localhost:8102/ServiceSimulation/Demo/ClaimProcessingService/ClaimProcessingService</Address><SOAPAction name="SOAPAction">http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/enterClaim</SOAPAction><ContentType name="ContentType">text/xml; charset=utf-8</ContentType><MessageExchangePattern name="MessageExchangePattern">Request Response</MessageExchangePattern><Full_request name="Full request" TooLong="True" link="True" FileLocation="StServiceCallActivity4_Full_request_34da1bbc-2230-4c0f-8847-53c7991eed23.xml">&lt;?xml version="1.0"? ... &lt;/Body&gt;
+&lt;/Envelope&gt;</Full_request><InputHeader name="InputHeader">SOAPAction:	http://hp.com/SOAQ/ServiceSimulation/2010/demo/01/IClaimProcessing/enterClaim
+Content-Type:	text/xml; charset=utf-8
+Host:	localhost:8102
+Content-Length:	1167
+Expect:	100-continue
+Connection:	Close
+</InputHeader><OutputHeader name="OutputHeader">Connection:	close
+Content-Length:	377
+Content-Type:	text/xml; charset=utf-8
+Date:	Fri, 15 May 2020 17:48:50 GMT
+Server:	Microsoft-HTTPAPI/2.0
+</OutputHeader><OutputText name="OutputText">&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;&lt;s:Body&gt;&lt;enterClaimResponse xmlns="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01"&gt;&lt;enterClaimResult xmlns:a="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;a:id&gt;1&lt;/a:id&gt;&lt;/enterClaimResult&gt;&lt;/enterClaimResponse&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;</OutputText><HttpStatusCode name="HttpStatusCode">200 : OK</HttpStatusCode><OutputXml name="OutputXml" xml="True" link="True" FileLocation="StServiceCallActivity4_OutputXml_7a6d27e5-6c1f-4e4e-825c-33d5b97fb762.xml">&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;s:Body&gt;
+    &lt;enterClaimResponse xmlns="http://hp.com/SOAQ/ServiceSimulation/2010/demo/01"&gt;
+      &lt;enterClaimResult xmlns:a="http://schemas.datacontract.org/2004/07/HP.SOAQ.ServiceSimulation.Demo" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;
+        &lt;a:id&gt;1&lt;/a:id&gt;
+      &lt;/enterClaimResult&gt;
+    &lt;/enterClaimResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;</OutputXml><VTD_Message name="Message">Web service call performed successfully</VTD_Message><Name name="Name">'enterClaim'</Name><Comment name="Comment">''</Comment><VTD_Status name="Status">Done</VTD_Status></report>

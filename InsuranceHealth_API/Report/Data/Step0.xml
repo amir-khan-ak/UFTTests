@@ -1,0 +1,1 @@
+<?xml-stylesheet href="..//DefaultActivityStylesheet.xsl" type="text/xsl"?><report><VTD_Type name="Type">HP.ST.Ext.BasicActivities.StartActivity</VTD_Type><VTD_Name name="Step ID">StartActivity1</VTD_Name><VTD_Message name="Message">Test started</VTD_Message><Name name="Name">'Start'</Name><Comment name="Comment">''</Comment><VTD_Status name="Status">Done</VTD_Status></report>

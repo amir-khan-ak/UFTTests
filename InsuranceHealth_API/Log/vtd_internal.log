@@ -1,5 +1,6 @@
-2020-05-15 17:28:00,929 [9] ERROR - Failed to log checkpoint status:
-2020-05-15 17:28:00,929 [9] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+2020-05-15 18:48:51,073 [18] ERROR - Failed to log checkpoint status:
+2020-05-15 18:48:51,073 [18] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
    at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2020-05-15 18:48:51,077 [18] ERROR - Checkpoint 1: "1" > "1" failed
