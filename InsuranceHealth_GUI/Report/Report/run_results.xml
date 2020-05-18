@@ -1,6 +1,21 @@
 <?xml version="1.0"?>
 <Results version="1.0">
 <ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Virtualization</Name>
+    <Description />
+    <StartTime>2020-05-18 04:21:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Virtualization.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Virtualization.js</HtmlBottomFilePath>
+      <IconKey>2b49eb91c4a24d40acd8db6784590b6b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\3f709cc3-dbc3-4d0f-ab1c-77125afbdc76.jpeg" />
+  </Data>
+</ReportNode>
 <ReportNode type="Iteration">
 <ReportNode type="Action">
 <ReportNode type="Context">
@@ -8,7 +23,7 @@
 <Data>
     <Name>Health Insurance Demo.Activate</Name>
     <Description />
-    <StartTime>2020-05-17 18:14:42</StartTime>
+    <StartTime>2020-05-18 04:21:59</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -39,17 +54,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>fc6ee272e94848f4b9e80ce7c48792a2</IconKey>
+      <IconKey>62fb1cda3b77481abb3f94170239708e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\c2e9d879-f734-46ce-b935-0b6ab6dc8b4c.jpeg" highlight="0,0,395,624" />
+    <Snapshot reference="Resources\Snapshots\677b2b6c-f1b4-4c7a-94fa-fbd394edb9ab.jpeg" highlight="0,0,395,624" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>Enter Claim.Click</Name>
     <Description />
-    <StartTime>2020-05-17 18:14:44</StartTime>
+    <StartTime>2020-05-18 04:22:01</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -84,17 +99,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>bceffbc50c5041eb95cc1da715ea9d3f</IconKey>
+      <IconKey>c5c09e71ca064371abb1e13d49abea60</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\269441d9-01df-4c0d-95da-cff2646d6bb0.jpeg" highlight="266,342,105,23" />
+    <Snapshot reference="Resources\Snapshots\21751940-ccb7-4d58-900a-4c722dcd918d.jpeg" highlight="266,342,105,23" />
   </Data>
 </ReportNode>
 <Data>
     <Name>Health Insurance Demo</Name>
     <Description>Window</Description>
-    <StartTime>2020-05-17 18:14:42</StartTime>
-    <Duration>4</Duration>
+    <StartTime>2020-05-18 04:21:59</StartTime>
+    <Duration>5</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -125,7 +140,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>fc6ee272e94848f4b9e80ce7c48792a2</IconKey>
+      <IconKey>62fb1cda3b77481abb3f94170239708e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -136,7 +151,7 @@
 <Data>
     <Name>"textResponse"</Name>
     <Description> </Description>
-    <StartTime>2020-05-17 18:14:46</StartTime>
+    <StartTime>2020-05-18 04:22:04</StartTime>
     <Result>Passed</Result>
     <Extension>
       <TestObject>
@@ -172,8 +187,8 @@
         <Properties>
           <Property>
             <StdChkPointPropertyName><![CDATA[text]]></StdChkPointPropertyName>
-            <StdChkPointPropertyActualValue><![CDATA[Claim #10 entered.
-Claim #10: Micro Focus, 01/01/2010, $24, needs further approval
+            <StdChkPointPropertyActualValue><![CDATA[Claim #6 entered.
+Claim #6: Hercule Poirot, 01/01/2010, $24, approved
 ]]></StdChkPointPropertyActualValue>
             <StdChkPointPropertyExpectedValue><![CDATA[Claim .*]]></StdChkPointPropertyExpectedValue>
             <StdChkPointRegex><![CDATA[ON]]></StdChkPointRegex>
@@ -181,17 +196,17 @@ Claim #10: Micro Focus, 01/01/2010, $24, needs further approval
         </Properties>
         <ShortDescription>Checkpoint passed.</ShortDescription>
       </Checkpoint>
-      <IconKey>942be8b5f49e4619b536951e51dc7295</IconKey>
+      <IconKey>543f7e9b627e4e0d9f856ebcdd93a87d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\d503fc73-c212-4d27-8889-156edc1846b8.jpeg" highlight="20,382,351,222" />
+    <Snapshot reference="Resources\Snapshots\9a0b9fc4-6e91-4c2a-8615-a1a66449a5c5.jpeg" highlight="20,382,351,222" />
   </Data>
 </ReportNode>
 <Data>
     <Name>textResponse</Name>
     <Description>UIAEdit</Description>
-    <StartTime>2020-05-17 18:14:46</StartTime>
-    <Duration>1</Duration>
+    <StartTime>2020-05-18 04:22:04</StartTime>
+    <Duration>0</Duration>
     <Result>Passed</Result>
     <Extension>
       <TestObject>
@@ -222,7 +237,7 @@ Claim #10: Micro Focus, 01/01/2010, $24, needs further approval
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>942be8b5f49e4619b536951e51dc7295</IconKey>
+      <IconKey>543f7e9b627e4e0d9f856ebcdd93a87d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -230,8 +245,8 @@ Claim #10: Micro Focus, 01/01/2010, $24, needs further approval
 <Data>
     <Name>Health Insurance Demo</Name>
     <Description>UIAWindow</Description>
-    <StartTime>2020-05-17 18:14:46</StartTime>
-    <Duration>1</Duration>
+    <StartTime>2020-05-18 04:22:04</StartTime>
+    <Duration>0</Duration>
     <Result>Passed</Result>
     <Extension>
       <TestObject>
@@ -266,7 +281,7 @@ Claim #10: Micro Focus, 01/01/2010, $24, needs further approval
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>5d84a223f1c949eb9b208d6ff45738cc</IconKey>
+      <IconKey>7fbb6b4551d54c20901221ddac475a65</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -274,12 +289,12 @@ Claim #10: Micro Focus, 01/01/2010, $24, needs further approval
 <Data>
     <Name>Health Insurance Data Testing</Name>
     <Description />
-    <StartTime>2020-05-17 18:14:41</StartTime>
+    <StartTime>2020-05-18 04:21:58</StartTime>
     <Duration>6</Duration>
     <Result>Passed</Result>
     <InputParameters />
     <Extension>
-      <IconKey>ceb027ed8b6a4e1bb20aae516354b938</IconKey>
+      <IconKey>0947757c4ffa418aa98283cc670424b8</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -287,11 +302,11 @@ Claim #10: Micro Focus, 01/01/2010, $24, needs further approval
 <Data>
     <Name>Action0</Name>
     <Description />
-    <StartTime>2020-05-17 18:14:41</StartTime>
+    <StartTime>2020-05-18 04:21:58</StartTime>
     <Duration>6</Duration>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>eb202ea552a84113860836d9885c051d</IconKey>
+      <IconKey>78ec6a550a0a4f77b87b178bb06a0e1d</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>1</Index>
@@ -304,12 +319,12 @@ Claim #10: Micro Focus, 01/01/2010, $24, needs further approval
     <ToolVersion>0</ToolVersion>
     <ToolVersionStringLiteral>15.0.1</ToolVersionStringLiteral>
     <Description />
-    <StartTime>2020-05-17 18:14:40</StartTime>
-    <Duration>7</Duration>
+    <StartTime>2020-05-18 04:21:56</StartTime>
+    <Duration>8</Duration>
     <Result>Passed</Result>
     <InputParameters />
     <Extension>
-      <IconKey>db369172ae6c466eafabb54ec182e757</IconKey>
+      <IconKey>e7792f8bb48248bb92a06f7aad674cd8</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Environment>
@@ -330,7 +345,7 @@ Claim #10: Micro Focus, 01/01/2010, $24, needs further approval
 </ReportNode>
 <GeneralInfo>
     <ResultName>Report</ResultName>
-    <RunStartTime>2020-05-17 18:14:40</RunStartTime>
+    <RunStartTime>2020-05-18 04:21:56</RunStartTime>
     <Timezone>+01:00:00</Timezone>
     <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
     <OrchestrationToolVersion>0</OrchestrationToolVersion>
