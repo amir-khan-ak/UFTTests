@@ -12,7 +12,7 @@ AIUtil("input", "Usemame").Type "UFT.AI"
 AIUtil("input", "Password").Type "UFT.AI"
 AIUtil("button", "SIGN IN").Click
 
-AIUtil.FindTextBlock "Incorrect user name or password."
+AIUtil.FindTextBlock("Incorrect user name or password.").Exist(5)
 
 
 Browser("index:=0").Close()
