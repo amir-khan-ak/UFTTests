@@ -5,7 +5,11 @@ Browser("index:=0").Sync()
 AiUtil.SetContext Browser("index:=0")
 
 '*Login
-AIUtil("text_box", "User").Type "DASILVAPE"
+If AIUtil("text_box", "User").Exist() = True Then
+	AIUtil("text_box", "User").Type "DASILVAPE"
+else
+	AIUtil("text_box", "U88!""").Type "DASILVAPE"
+End If
 AIUtil("text_box", "Password").Type "Solman72"
 AIUtil.FindTextBlock("Log On").Click
 
