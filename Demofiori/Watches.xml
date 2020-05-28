@@ -1,0 +1,4 @@
+﻿<Properties>
+  <WatchEntry0 value="AIUtil.FindTextBlock(&quot;OK&quot;).Exist" />
+  <WatchEntry1 value="AIUtil.FindText(&quot;OK&quot;).Exist" />
+</Properties>
