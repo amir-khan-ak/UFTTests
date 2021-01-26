@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>iteration-Oren</Name>
+    <Description>iteration: 1 - Oren</Description>
+    <StartTime>2021-01-26 11:58:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a5233329ac734d118c37a667d8452c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="test" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>ba9fd684e7984c79a3b49efaf7c6cfd1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:05</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>4864b88fca474d2483266448991b7019</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>iteration-Yael</Name>
+    <Description>iteration: 2 - Yael</Description>
+    <StartTime>2021-01-26 11:58:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a5233329ac734d118c37a667d8452c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="test" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>ba9fd684e7984c79a3b49efaf7c6cfd1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>4864b88fca474d2483266448991b7019</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>2</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>iteration-Avi</Name>
+    <Description>iteration: 3 - Avi</Description>
+    <StartTime>2021-01-26 11:58:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a5233329ac734d118c37a667d8452c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="test" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>ba9fd684e7984c79a3b49efaf7c6cfd1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>4864b88fca474d2483266448991b7019</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>3</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>iteration-Ofer</Name>
+    <Description>iteration: 4 - Ofer</Description>
+    <StartTime>2021-01-26 11:58:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a5233329ac734d118c37a667d8452c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:07</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="test" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>ba9fd684e7984c79a3b49efaf7c6cfd1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:06</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>4864b88fca474d2483266448991b7019</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>4</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>iteration-Sigal</Name>
+    <Description>iteration: 5 - Sigal</Description>
+    <StartTime>2021-01-26 11:58:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a5233329ac734d118c37a667d8452c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:07</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="test" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>ba9fd684e7984c79a3b49efaf7c6cfd1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:07</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>4864b88fca474d2483266448991b7019</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>5</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>iteration-Daniel</Name>
+    <Description>iteration: 6 - Daniel</Description>
+    <StartTime>2021-01-26 11:58:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a5233329ac734d118c37a667d8452c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:07</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="test" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>ba9fd684e7984c79a3b49efaf7c6cfd1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:07</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>4864b88fca474d2483266448991b7019</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>6</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>iteration-Radi</Name>
+    <Description>iteration: 7 - Radi</Description>
+    <StartTime>2021-01-26 11:58:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>a5233329ac734d118c37a667d8452c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:08</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="test" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>ba9fd684e7984c79a3b49efaf7c6cfd1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2021-01-26 11:58:07</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>4864b88fca474d2483266448991b7019</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>7</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>VCSCM</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2021-01-26 11:58:02</StartTime>
+    <Duration>6</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="test" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>9d9cf5aba00b486e911a43752e8c5d23</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>00:00:00</Timezone>
+      <Locale>English (Switzerland)</Locale>
+      <User>CORPDOM\khanamir</User>
+      <CpuInfo>Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>10811</TotalMemory>
+      <HostName>\UFTONE-KHAN</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res3</ResultName>
+    <RunStartTime>2021-01-26 11:58:02</RunStartTime>
+    <Timezone>00:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
