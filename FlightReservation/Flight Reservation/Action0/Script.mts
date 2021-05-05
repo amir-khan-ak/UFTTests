@@ -1,1 +1,2 @@
-﻿RunAction "Action1", oneIteration
+﻿RunAction "Login", oneIteration
+RunAction "Select Flight", oneIteration
