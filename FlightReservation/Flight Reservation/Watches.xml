@@ -1,0 +1,4 @@
+﻿<Properties>
+  <WatchEntry0 value="DataTable(&quot;Message&quot;, dtGlobalSheet)" />
+  <WatchEntry1 value="Instr(DataTable(&quot;Message&quot;, dtGlobalSheet), &quot;completed&quot;)" />
+</Properties>

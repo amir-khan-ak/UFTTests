@@ -13,7 +13,10 @@ DevelopTool=AQT
 [Actions]
 Action0=Action0\Script.mts
 Login=Action1\Script.mts
-Select Flight=Action2\Script.mts
+Find Flights=Action2\Script.mts
+Select Flight=Action3\Script.mts
+Book Flight=Action4\Script.mts
+Close App=Action5\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -59,3 +62,12 @@ Action1\ObjectRepository.bdb=
 Action2\Script.mts=
 Action2\Resource.mtr=
 Action2\ObjectRepository.bdb=
+Action3\Script.mts=
+Action3\Resource.mtr=
+Action3\ObjectRepository.bdb=
+Action4\Script.mts=
+Action4\Resource.mtr=
+Action4\ObjectRepository.bdb=
+Action5\Script.mts=
+Action5\Resource.mtr=
+Action5\ObjectRepository.bdb=
